@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": ""
+    "works": "ts-node --project ./configs/tsconfig.custom.json -r tsconfig-paths/register ./src/index.ts",
+    "broken": "ts-node-dev --project ./configs/tsconfig.custom.json -r tsconfig-paths/register ./src/index.ts"
   },
   "devDependencies": {
     "ts-node": "^10.4.0",
